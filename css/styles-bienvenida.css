@@ -1,4 +1,14 @@
 
 #img {
+    float: right;
+}
+
+.img-float {
     border: 10px solid black;
+    float: left;
+    margin: 0 16px 12px 0;
+}
+
+* {
+    background-color: #ffffff9b;
 }
