@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 24px;
+  line-height: 1.6;
+}
+
+.secciones {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 24px;
+}
+
+.secciones > li {
+  border: 2px solid #a95b72;
+  border-radius: 12px;
+  padding: 20px;
+  background: linear-gradient(135deg, #fff4f4 0%, #fde2e2 50%, #fff4f4 100%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.secciones > li h2 {
+  margin-top: 0;
+}
+
+.secciones ul,
+.secciones ol {
+  margin: 16px 0 0;
+  padding-left: 24px;
+}
+
+.secciones ul li,
+.secciones ol li {
+  color: #2b2b2b;
+}
+
+.secciones ul li::marker {
+  color: #4800f0;
+}
+
+.secciones ol li::marker {
+  color: #fa0192;
+  font-weight: bold;
+}
